@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+.grid {
+    width: 680px;
+	height: 600px;
+	border: solid rgb(255, 255, 255) 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.asteroids {
+	background-color: rgb(87, 87, 87);
+	border-radius: 10px;
+}
+
+.shooter {
+	background-color: rgb(0, 145, 255);
+}
+
+.laser {
+	background-color: rgb(248, 252, 0);
+}
+
+.boom {
+	background-color: rgb(255, 0, 0);
+}
